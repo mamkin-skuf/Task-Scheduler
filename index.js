@@ -21,10 +21,17 @@ function taskOne() {
     console.log('Task One executed.');
 }
 
+
+
+
+
 function taskTwo() {
     logMessage('Task Two executed.');
     console.log('Task Two executed.');
 }
+
+
+
 
 function taskThree() {
     logMessage('Task Three executed.');
