@@ -9,10 +9,6 @@ const logFile = path.join(__dirname, 'task_log.txt');
 // Function to log messages
 function logMessage(message) {
     const timestamp = new Date().toISOString();
-
-
-
-    
     const logEntry = `[${timestamp}] ${message}\n`;
     fs.appendFile(logFile, logEntry, (err) => {
         if (err) console.error('Error writing to log file:', err);
