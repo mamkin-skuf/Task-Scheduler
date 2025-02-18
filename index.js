@@ -7,10 +7,6 @@ const path = require('path');
 const logFile = path.join(__dirname, 'task_log.txt');
 
 // Function to log messages
-
-
-
-
 function logMessage(message) {
     const timestamp = new Date().toISOString();
     const logEntry = `[${timestamp}] ${message}\n`;
